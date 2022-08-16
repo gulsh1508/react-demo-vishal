@@ -1,6 +1,7 @@
 import axios from "axios";
 var isToken = localStorage.getItem("token");
-var baseUrl = "http://localhost:5001/";
+var baseUrl =
+  "mongodb+srv://gulshan:gulshan123@cluster0.jqxrpxu.mongodb.net/NodeDemo";
 var token = isToken ? isToken : "";
 
 const header = {
